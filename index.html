@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS RUBIK, 300-500-700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Multiplicacion</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="main--wp container">
+        <div class="main__box flex__center">
+          <ion-icon class="main__icon" name="school-outline"></ion-icon>
+          <h1 class="main__title">Desafio - Multiplicación</h1>
+        </div>
+      </div>
+
+      <div class="main__btn flex__center">
+        <button class="btn btn--ingreso" id="btn-click">Comenzar</button>
+      </div>
+      <div class="main__btn flex__center main__btn--none" id="btn-appear">
+        <button class="btn btn__funct btn__funct--ing" id="btn-info">
+          Ingresa el numero
+        </button>
+        <button class="btn btn__funct" id="tabla">Tabla de Multiplicar</button>
+        <button class="btn btn__funct" id="factorial">Factorial</button>
+      </div>
+      <div class="box__solutions" id="box-solution">
+        <button class="btn btn__funct btn__funct-clear" id="clear">
+          Clear
+        </button>
+      </div>
+
+      <div class="main__text">
+        <div class="main__text--2">
+          <h2>Descripción:</h2>
+          <p>
+            Realiza cálculos matemáticos, en los cuales el usuario ingresara un
+            número, y podra obtener como respuesta los siguientes puntos:
+          </p>
+          <div class="list__box">
+            <ul>
+              <li class="list__flex">
+                <ion-icon name="close-outline"></ion-icon>
+                <span>Tabla de multiplicación.</span>
+              </li>
+              <li class="list__flex">
+                <ion-icon name="alert-outline"></ion-icon>
+                <span>Factorial del número.</span>
+              </li>
+            </ul>
+          </div>
+          <h2>Como funciona:</h2>
+          <div class="list__box">
+            <ul>
+              <li class="list__flex">
+                <ion-icon name="remove-outline"></ion-icon
+                ><span>Haz click en el botón "Comenzar".</span>
+              </li>
+
+              <li class="list__flex">
+                <ion-icon name="remove-outline"></ion-icon
+                ><span>Haz click en el botón "ingresa el n°".</span>
+              </li>
+
+              <li class="list__flex">
+                <ion-icon name="remove-outline"></ion-icon
+                ><span>Luego ingresa el n° de tu elección.</span>
+              </li>
+              <li class="list__flex">
+                <ion-icon name="remove-outline"></ion-icon
+                ><span>Selecciona la opción requerida.</span>
+              </li>
+              <li class="list__flex">
+                <ion-icon name="remove-outline"></ion-icon
+                ><span>Tu resultado sera entregado mediante alertas.</span>
+              </li>
+              <li class="list__flex">
+                <ion-icon name="remove-outline"></ion-icon
+                ><span
+                  >Haz click en el botón "Clear", para resetear la
+                  información.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- IONICONS V 5.5.2 -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- JS PROPIO -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
